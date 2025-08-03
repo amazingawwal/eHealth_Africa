@@ -1,0 +1,24 @@
+h1{
+    color: blueviolet;
+
+}
+
+#todo-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.list-item{
+    /* color: grey; */
+    gap: 2em;
+    font-size: larger;
+    display: flex;
+    align-items:center;
+    background-color:rgb(233, 224, 224);
+    padding-left: 1em;
+}
+
+.list-item img{
+    height: 30px;
+}

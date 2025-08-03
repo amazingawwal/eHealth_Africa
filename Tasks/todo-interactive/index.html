@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Interactive To-Do List</title>
 </head>
 <body>
-    <h2>Hello World</h2>
+    <h1 id="heading">Interactive To Do List</h1>
+    <ul id="todo-list">
+        <li class="list-item" id="dom">
+            <p>Learn JS DOM Manipulation</p>
+            <img src="../../assets/tick.png"  alt="completion-tick" >
+        </li>
+        <li class="list-item" id="dom-assignment">
+            <p>Complete JS DOM module assignment</p>
+            <img src="../../assets/tick.png" alt="completion-tick" >
+        </li>
+        <li class="list-item" id="async">
+            <p>Learn JS Asynchronous Programming</p>
+            <img src="../../assets/tick.png" alt="completion-tick" >
+        </li>
+        <li class="list-item" id="async-assignment">
+            <p>Complete JS Asynchronous Programming module assignment</p>
+            <img src="../../assets/tick.png" alt="completion-tick" >
+        </li>
+    </ul>
+<script src="./script.js"></script>
 </body>
 </html>
