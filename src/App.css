@@ -1,16 +1,26 @@
 .profile-card{
   background-color: rgb(217, 189, 243);
-  
+  padding: 2%;
 }
 
 .profile-card img{
   border-radius: 50%;
+ 
+
 }
 
-/* .details{
-  margin: 0 50%;
-} */
+.parent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
-/* .details p, .details h1{
-  margin: 0 50%;
-} */
+.details p{
+  font-size: larger;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
