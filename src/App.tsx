@@ -1,7 +1,6 @@
 import './App.css'
 import ProfileCard from './components/profileCard'
-import type { ProfileDetails } from './components/profileCard'
-
+import type { ProfileDetails } from './assets/types/types'
 
 const profileDetails : ProfileDetails[] = [{
   id: 1,
@@ -14,7 +13,14 @@ const profileDetails : ProfileDetails[] = [{
   name : 'Sakeeb',
   image: 'https://placehold.co/200x200/grey/white',
   description: 'Project Manager'
-}]
+},
+{
+  id: 3,
+  name : 'Ayigoro',
+  image: 'https://placehold.co/200x200/grey/white',
+  description: 'Data Analyst'
+}
+]
 
 function App() {
   
